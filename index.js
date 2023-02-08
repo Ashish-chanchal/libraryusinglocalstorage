@@ -1,27 +1,4 @@
-// function Book(name, author, type) {
-//     this.name = name;
-//     this.author = author;
-//     this.type = type;
-// }
 
-// function Display() {
-
-// }
-// Display.prototype.add = function (book) {
-//     let tablebody = document.getElementById("tablebody");
-//     let uistring = `
-//         <tr>                 
-//             <td>${book.name}</td>
-//              <td>${book.author}</td>
-//             <td>${book.type}</td>
-//         </tr>`;
-//         tablebody.innerHTML+=uistring;
-// }
-
-// Display.prototype.clear = function () {
-//     let libform = document.getElementById("library-form");
-//     libform.reset();
-// }
 
 showbooks();
 // submit library-form
@@ -68,12 +45,7 @@ function libraryfromsubmit(e) {
         name.value = "";
         author.value = "";
         showbooks();
-    // let book = new Book(name, author, type);
-    // console.log(book);
-    // let display = new Display();
-    // display.add(book);
-    // display.clear();
-    // console.log("submited");
+
 }
 
 function showbooks() {
